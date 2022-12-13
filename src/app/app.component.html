@@ -1,3 +1,10 @@
-<app-input-change *ngFor="let hero of heroes" [hero]="hero">
+<!-- <app-input-change *ngFor="let hero of heroes" [hero]="hero">
 </app-input-change>
-<button (click)="changeHero()">Click to change heroes</button>
+<button (click)="changeHero()">Click to change heroes</button> -->
+
+<!-- <app-input-setter *ngFor="let hero of heroes" [Hero]="hero"></app-input-setter>
+<button (click)="changeHero()">Click to change heroes</button>-->
+
+<app-ouput-event (childState)="visibility($event)">
+</app-ouput-event>
+<p [ngClass]="{'hidden':visible}">I am visible now</p>
