@@ -1,4 +1,3 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<app-input-change *ngFor="let hero of heroes" [hero]="hero">
+</app-input-change>
+<button (click)="changeHero()">Click to change heroes</button>
