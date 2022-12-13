@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { InputChangeComponent } from './input-change/input-change.component';
 import { InputSetterComponent } from './input-setter/input-setter.component';
 import { OuputEventComponent } from './ouput-event/ouput-event.component';
+import { ViewChildComponent } from './view-child/view-child.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -16,6 +17,7 @@ import { OuputEventComponent } from './ouput-event/ouput-event.component';
     InputChangeComponent,
     InputSetterComponent,
     OuputEventComponent,
+    ViewChildComponent,
   ],
   bootstrap: [AppComponent],
 })
